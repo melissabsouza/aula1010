@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    position: relative;
+}
+.menu:hover{
+    background: gold;
+}
+
+.menu{
+    background-color: rgb(167, 133, 229);
+    border: 1px solid white;
+    width: 70px;
+    height: 20px;
+    z-index: 9;
+    border-radius: 3px;
+}
+
+#inicio{
+    display: block;
+
+}
+#sobre{
+    position: fixed;
+    left: 80px;
+    top: 0px;  
+}
+
+#contato{
+    position: fixed;
+    left: 160px;
+    top: 0px;
+}
+
+#botao:hover + div{
+    visibility: none;
+
+}

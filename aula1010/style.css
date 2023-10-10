@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    background-color: tomato;
+    border: 1px solid #222;
+    margin: 16px;
+}
+
+.caixa{
+    background-color: green;
+    border: 1px solid #222;
+    width: 150px;
+    height: 150px;
+    /* display: block; */
+    display: inline-block;
+}
+
+/* #caixa2{
+    /* display: none;
+    visibility: hidden; 
+} */
